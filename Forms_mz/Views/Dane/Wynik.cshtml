@@ -1,0 +1,15 @@
+﻿@model Forms_mz.Models.Dane
+
+@{
+    ViewData["Title"] = "Wynik";
+}
+<h1>Rejestracja zakończona pomyślnie</h1>
+<p>Potwierdzam Twoje dane:</p>
+<ul>
+    <li>Imię: @Model.Imie</li>
+    <li>Nazwisko: @Model.Nazwisko</li>
+    <li>Email: @Model.Email</li>
+    <li>Nr telefonu: @Model.NrTelefonu</li>
+    <li>Wiek: @Model.Wiek</li>
+    <li>Miasto: @Model.Miasto</li>
+</ul>
